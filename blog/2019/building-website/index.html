@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Adeel Akhtar | Building a Website with Jekyll al-folio theme and Hosting on GitHub Pages</title>
+  <meta name="description" content="Personal Website
+">
+
+  <link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="/blog/2019/building-website/">
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    
+    <span class="site-title">
+        
+        <strong>Adeel</strong> Akhtar
+    </span>
+    
+
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+              <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+              <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+      <div class="trigger">
+        <!-- About -->
+        <a class="page-link" href="/">about</a>
+
+        <!-- Blog
+        <a class="page-link" href="/blog/">blog</a>
+        -->
+        <!-- Pages -->
+        
+          
+        
+          
+        
+          
+        
+          
+            <a class="page-link" href="/publications/">publications</a>
+          
+        
+          
+            <a class="page-link" href="/teaching/">Teaching</a>
+          
+        
+          
+        
+
+        <!-- CV link -->
+        <!-- <a class="page-link" href="/assets/pdf/CV.pdf">vitae</a> -->
+
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Building a Website with Jekyll al-folio theme and Hosting on GitHub Pages</h1>
+    <p class="post-meta">September 29, 2019</p>
+  </header>
+
+  <article class="post-content">
+    <p>Building this website was more trouble than it should have been- took me a whole three day weekend to build this and another blog! To be fair, I was completely new to Jekyll and GitHub Pages, my HTML and CSS were also very rusty. All the same, I think it would have been much easier if I had found everything in one place so naturally, that’s my first blog post here. While I don’t have the time to write a very detailed post, I’ll try to document the procedure I finally followed in enough detail, so someone can follow along.</p>
+
+<h3 id="installation-on-macos-mojave">Installation on macOS Mojave</h3>
+<p>I found these resources useful and managed to get stuff done without needing sudo everywhere.</p>
+
+<p><a href="https://jekyllrb.com/docs/installation/macos/">https://jekyllrb.com/docs/installation/macos/</a></p>
+
+<p><a href="https://desiredpersona.com/install-jekyll-on-macos/">Install Jekyll on macOS Mojave</a></p>
+
+<h3 id="two-options---build-locally-or-let-gh-pages-do-it">Two Options - Build locally or let gh-pages do it</h3>
+<ol>
+  <li>
+    <p>You can upload your website’s source files into a github repo and let gh-pages build it for you. These <a href="https://jekyllrb.com/tutorials/video-walkthroughs/">video walkthroughs</a> from Giraffe Academy can walk you through the process. I did this for <a href="https://shwetharam0407.github.io/music-corner/">My Music Corner</a></p>
+  </li>
+  <li>
+    <p>GitHub pages don’t support many custom ruby plugins because of security concerns. If you need one of these (jekyll-scholar in my case), deploying your source on gh-pages is not an option. A work around is to build your website locally and only upload the build (contents of _site folder) to a github repo. You can, of course,  keep the source in a separate branch or a different repo. This is the process I followed for this website.</p>
+  </li>
+</ol>
+
+<p>I want to have both code and build in the same repo, so I have them on different branches. source branch has all the code, master is the deployment branch.</p>
+
+<h4 id="1-initialize-a-new-empty-repo">1. Initialize a new empty repo</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git init
+</code></pre></div></div>
+
+<h4 id="2-add-some-files-common-to-both-branches">2. Add some files common to both branches.</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add README.md .gitignore
+
+git commit -m "initial commit"
+</code></pre></div></div>
+
+<h4 id="3-create-a-repo-on-github-called-github_usernamegithubio">3. Create a repo on github called github_username.github.io</h4>
+
+<h4 id="4-set-the-github-repo-as-your-remote-and-push-to-master-branch">4. Set the github repo as your remote and push to master branch</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git remote add origin https://github.com/github_username/github_username.github.io.git
+
+git push --set-upstream origin master
+</code></pre></div></div>
+
+<h4 id="5-create-a-source-branch-and-add-the-source-files-and-push-them-to-source-branch-in-remote-repo-i-forked-theme-al-folio">5. Create a source branch and add the source files and push them to source branch in remote repo. I forked theme <a href="https://github.com/alshedivat/al-folio">al-folio</a>.</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout -b source
+git add .
+git commit -m "adding source files cloned from theme al-folio"
+git push origin source
+</code></pre></div></div>
+
+<h4 id="6-set-the-baseurl-field-in-_configyml-to-be-an-empty-string-as-recommended-for-user-webpages">6. Set the baseurl field in _config.yml to be an empty string as recommended for user webpages</h4>
+
+<h4 id="7-build-and-serve-your-site-locally">7. Build and serve your site locally</h4>
+
+<p>I ran into this error:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle exec jekyll serve
+
+jekyll 3.8.5 | Error:  superclass must be a Class (Faraday::DeprecatedConstant given). 
+</code></pre></div></div>
+
+<p>Fixed this by forcing an older version of faraday gem by adding this line to Gemfile</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>gem 'faraday', "&lt; 0.16" 
+</code></pre></div></div>
+
+<p>Run</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle update faraday
+</code></pre></div></div>
+
+<p>bundle exec jekyll serve worked after the fix. You can view the built website at localhost.</p>
+
+<h4 id="8-deploying-to-gh-pages">8. Deploying to gh-pages</h4>
+
+<p>If you upload the contents of _site folder now to gh-pages, you will find that links are broken and styles are missing. This is because, when you run bundle exec jekyll serve, Jekyll embeds localhost in the paths of the built HTML files.</p>
+
+<p>For deployment, run</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle exec jekyll build
+</code></pre></div></div>
+
+<p>Here, I came across this warning:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>GitHub Metadata: site.name is set in _config.yml, but many plugins and themes expect site.title to be used instead. To avoid potential inconsistency, Jekyll GitHub Metadata will not set site.title to the repository's name.
+</code></pre></div></div>
+
+<p>I added a site.title field to my _config.yml to get around this.</p>
+
+<p>Also note that Jekyll generates relative paths that require an active server to resolve them. If you simply open the built HTML files in a browser, you will find that the paths are not resolved and as a result, links are broken and styles are missing.</p>
+
+<h4 id="9-check-out-master-branch-and-add-contents-of-the-built-site">9. Check out master branch and add contents of the built site</h4>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout master
+</code></pre></div></div>
+
+<p>Copy contents of the _site folder to the root folder of your website. I found it useful to have _site folder in my .gitignore.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add .
+git commit -m "build &lt;commit hash&gt;" 
+</code></pre></div></div>
+
+<p>I use this <commit hash=""> to keep track of which build corresponds to which commit in the source branch</commit></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push
+</code></pre></div></div>
+
+<p>Your website should be up and running on https://github_username.github.io, sometimes it takes a few minutes.</p>
+
+<h3 id="its-time-to-start-customizing-your-website-now">It’s time to start customizing your website now!</h3>
+
+
+  </article>
+
+  
+
+</div>
+
+      </div>
+    </div>
+
+    <footer>
+
+  <div class="wrapper">
+      &copy; 2019 Adeel Akhtar. All rights reserved.
+    
+    
+  </div>
+
+</footer>
+
+
+    <!-- Load jQuery -->
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+
+<!-- Include custom icon fonts -->
+<link rel="stylesheet" href="/assets/css/fontawesome-all.min.css">
+<link rel="stylesheet" href="/assets/css/academicons.min.css">
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-XXXXXXXXX', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+  </body>
+
+</html>

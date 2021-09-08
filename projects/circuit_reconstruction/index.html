@@ -6,14 +6,14 @@
   <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <title>Adeel Akhtar</title>
+  <title>Adeel Akhtar | Circuit Reconstruction from EM Images</title>
   <meta name="description" content="Personal Website
 ">
 
   <link rel="shortcut icon" href="/assets/img/favicon.ico">
 
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="/blog/">
+  <link rel="canonical" href="/projects/circuit_reconstruction/">
 </head>
 
 
@@ -82,50 +82,49 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <!-- Begin Mailchimp Signup Form -->
-<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-    #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
-    /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-</style>
-<div id="mc_embed_signup">
-<form action="https://gmail.us20.list-manage.com/subscribe/post?u=7d0fe928d7a489055eaf195d2&amp;id=6d32a68696" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-    <div id="mc_embed_signup_scroll">
-    
-    <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_7d0fe928d7a489055eaf195d2_6d32a68696" tabindex="-1" value=""></div>
-    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-    </div>
-</form>
+        <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Circuit Reconstruction from EM Images</h1>
+    <h5 class="post-description">Deep Learning (CS 291K) Course Project</h5>
+  </header>
+
+  <article class="post-content Circuit Reconstruction from EM Images clearfix">
+    <p>Automatic reconstruction of neurons and neuronal connectivity is a central problem in neuroanatomy. This is necessary to efficiently map 3D brain structure and connectivity. We address the problem of 2D segmentation of ssTEM image stacks which is often the first step in the pipeline.</p>
+
+<div class="img">
+<img class="col three left" src="/assets/projects/circuit_reconstruction/img/test_results.png" alt="" title="example image" />
+</div>
+<div class="col three caption">
+    2D Neuron segmentation - test results
 </div>
 
-<!--End mc_embed_signup-->
+<p>To segment biological neuron membranes, we use artificial neural network as a pixel classifier. A Convolutional Neural Network takes raw pixel values in a square window centered around each pixel as input and outputs the probability of that pixel being a non-membrane. The label of each pixel (membrane or non- membrane) is predicted by postprocessing the output of our Convolutional Neural Network.</p>
 
-<div class="header-bar">
-  <h1>Random Sampling</h1>
-  <h2>A few samples from my thought stream, wayy below Niquist!</h2>
-  
-  <h2> Other Blogs: </h2>
-  <a href="https://shwetharam0407.github.io/star-stuff/">StarStuff,  </a>
-  <a href="https://shwetharam0407.github.io/music-corner/">MyMusicCorner</a>
+<div class="img">
+<img class="col three left" src="/assets/projects/circuit_reconstruction/img/convnet_architecture.png" alt="" title="example image" />
+</div>
+<div class="col three caption">
+    ConvNet Architecture
 </div>
 
-
-
-<ul class="post-list">
-  
-    <li>
-      <h2><a class="post-title" href="/blog/2019/building-website/">Building a Website with Jekyll al-folio theme and Hosting on GitHub Pages</a></h2>
-      <p class="post-meta">September 29, 2019 — 15:00</p>
-      <p>A short summary of procedure followed and some lessons learnt while building this website</p>
-    </li>
-  
+<hr />
+<h3 id="results">Results</h3>
+<ul>
+  <li>Training Accuracy: 77.45%</li>
+  <li>Validation Accuracy: 72.78%</li>
+  <li>Test Accuracy: 69.32%</li>
 </ul>
 
+<p>Please see <a href="/assets/projects/circuit_reconstruction/291k-circuit-reconstruction.pdf">report</a> and <a href="/assets/projects/circuit_reconstruction/circuit_reconstruction.pdf">slides</a> for more details.</p>
 
+  </article>
 
+  
+
+  
+
+</div>
 
       </div>
     </div>
