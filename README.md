@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # al-folio
-=======
-# Adeel Akhtar's personal webpage
->>>>>>> c177aa29034093814dc35a4c342e02df05f760a5
 
 [![build status](https://travis-ci.org/alshedivat/al-folio.svg?branch=master)](https://travis-ci.org/alshedivat/al-folio)
 [![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
