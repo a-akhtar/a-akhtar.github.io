@@ -1,4 +1,4 @@
-# Otilia Stretcu's personal webpage
+# Adeel Akhtar's personal webpage
 
 This is the personal website of Adeel Akhtar, which can be visualized at [https://adeelakhtar.com/](https://adeelakhtar.com/).
 
