@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://adeelakhtar.com/</loc>
+  <lastmod>2021-09-12T21:27:32+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://adeelakhtar.com/blog/</loc>
+  <lastmod>2021-09-12T21:27:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://adeelakhtar.com/projects/</loc>
+  <lastmod>2021-09-12T21:27:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://adeelakhtar.com/teaching/</loc>
+  <lastmod>2021-09-12T21:27:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://adeelakhtar.com/publications/</loc>
+  <lastmod>2021-09-12T21:27:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://adeelakhtar.com/projects/1_project/</loc>
+  <lastmod>2021-09-12T21:27:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://adeelakhtar.com/assets/pdf/Technical_report_quadload_2021.pdf</loc>
+  <lastmod>2021-09-12T21:27:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
