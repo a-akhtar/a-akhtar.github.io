@@ -1,47 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>http://adeelakhtar.com/</loc>
-  <lastmod>2021-09-12T21:27:32+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>https://adeelakhtar.com/news/queens_postdoc/</loc>
+<lastmod>2019-01-05T00:00:00+00:00</lastmod>
 </url>
 <url>
-  <loc>http://adeelakhtar.com/blog/</loc>
-  <lastmod>2021-09-12T21:27:32+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://adeelakhtar.com/news/TAC/</loc>
+<lastmod>2020-02-10T00:00:00+00:00</lastmod>
 </url>
 <url>
-  <loc>http://adeelakhtar.com/projects/</loc>
-  <lastmod>2021-09-12T21:27:32+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://adeelakhtar.com/news/UCSC-postdoc/</loc>
+<lastmod>2021-05-01T00:00:00+00:00</lastmod>
 </url>
 <url>
-  <loc>http://adeelakhtar.com/teaching/</loc>
-  <lastmod>2021-09-12T21:27:32+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://adeelakhtar.com/news/ACC_2022/</loc>
+<lastmod>2022-01-22T00:00:00+00:00</lastmod>
 </url>
 <url>
-  <loc>http://adeelakhtar.com/publications/</loc>
-  <lastmod>2021-09-12T21:27:32+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>https://adeelakhtar.com/news/CDC_2022/</loc>
+<lastmod>2022-12-12T00:00:00+00:00</lastmod>
 </url>
 <url>
-  <loc>http://adeelakhtar.com/projects/1_project/</loc>
-  <lastmod>2021-09-12T21:27:32+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://adeelakhtar.com/news/NJIT_acceptance/</loc>
+<lastmod>2023-04-15T00:00:00+00:00</lastmod>
 </url>
 <url>
-  <loc>http://adeelakhtar.com/assets/pdf/Technical_report_quadload_2021.pdf</loc>
-  <lastmod>2021-09-12T21:27:32+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>https://adeelakhtar.com/news/AIAA-2025/</loc>
+<lastmod>2025-01-06T00:00:00+00:00</lastmod>
 </url>
-
-
+<url>
+<loc>https://adeelakhtar.com/news/KTH-2025/</loc>
+<lastmod>2025-05-01T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://adeelakhtar.com/news/Chalmers2025/</loc>
+<lastmod>2025-08-01T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://adeelakhtar.com/news/CCNY-2025/</loc>
+<lastmod>2025-09-10T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://adeelakhtar.com/news/KTH-Seminar2025/</loc>
+<lastmod>2025-09-10T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://adeelakhtar.com/news/ACC-2025/</loc>
+<lastmod>2025-12-03T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://adeelakhtar.com/news/ECC-2026/</loc>
+<lastmod>2026-03-05T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://adeelakhtar.com/news/CCTA-2026/</loc>
+<lastmod>2026-05-08T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://adeelakhtar.com/news/LCSS-SBP-2026/</loc>
+<lastmod>2026-06-07T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://adeelakhtar.com/news/LCSS-PINNs/</loc>
+<lastmod>2026-06-13T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>https://adeelakhtar.com/teachings/introduction-to-machine-learning/</loc>
+<lastmod>2026-07-01T05:31:58+00:00</lastmod>
+</url>
+<url>
+<loc>https://adeelakhtar.com/</loc>
+</url>
+<url>
+<loc>https://adeelakhtar.com/cv/</loc>
+</url>
+<url>
+<loc>https://adeelakhtar.com/_pages/dropdown/</loc>
+</url>
+<url>
+<loc>https://adeelakhtar.com/grads-lab/</loc>
+</url>
+<url>
+<loc>https://adeelakhtar.com/news/</loc>
+</url>
+<url>
+<loc>https://adeelakhtar.com/plugins/</loc>
+</url>
+<url>
+<loc>https://adeelakhtar.com/group/</loc>
+</url>
+<url>
+<loc>https://adeelakhtar.com/publications/</loc>
+</url>
+<url>
+<loc>https://adeelakhtar.com/repositories/</loc>
+</url>
+<url>
+<loc>https://adeelakhtar.com/teaching/</loc>
+</url>
 </urlset>

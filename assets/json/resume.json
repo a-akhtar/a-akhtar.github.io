@@ -1,0 +1,262 @@
+{
+  "basics": {
+    "name": "Adeel Akhtar",
+    "label": "Assistant Professor, Mechanical and Industrial Engineering, NJIT",
+    "image": "",
+    "email": "adeel.akhtar@njit.edu",
+    "phone": "",
+    "url": "https://adeelakhtar.com/",
+    "summary": "Adeel Akhtar is an Assistant Professor in the Department of Mechanical and Industrial Engineering at the New Jersey Institute of Technology. His research focuses on nonlinear control, geometric control, hybrid systems, cyber-physical systems, and mobile and aerial robotics.",
+    "location": {
+      "address": "323 Dr. Martin Luther King Jr. Blvd.",
+      "postalCode": "07103",
+      "city": "Newark",
+      "countryCode": "US",
+      "region": "New Jersey"
+    },
+    "profiles": [
+      {
+        "network": "Google Scholar",
+        "username": "Adeel Akhtar",
+        "url": "https://scholar.google.com/citations?user=kru-czoAAAAJ"
+      },
+      {
+        "network": "ORCID",
+        "username": "0000-0002-1830-0824",
+        "url": "https://orcid.org/0000-0002-1830-0824"
+      },
+      {
+        "network": "GitHub",
+        "username": "a-akhtar",
+        "url": "https://github.com/a-akhtar"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "adeel-akhtar-a99b1a22",
+        "url": "https://www.linkedin.com/in/adeel-akhtar-a99b1a22/"
+      }
+    ]
+  },
+
+  "work": [
+    {
+      "name": "New Jersey Institute of Technology",
+      "position": "Assistant Professor",
+      "location": "Newark, New Jersey, USA",
+      "startDate": "2024-01-01",
+      "endDate": "",
+      "summary": "Department of Mechanical and Industrial Engineering.",
+      "highlights": [
+        "Tenure-track faculty appointment",
+        "Research in nonlinear control, geometric control, hybrid systems, and robotics"
+      ]
+    },
+    {
+      "name": "King Abdullah University of Science and Technology",
+      "position": "Postdoctoral Researcher",
+      "location": "Saudi Arabia",
+      "startDate": "2023-01-01",
+      "endDate": "2023-12-31",
+      "summary": "RISC Lab, Department of Electrical and Computer Engineering.",
+      "highlights": [
+        "Advisor: Prof. Eric Feron"
+      ]
+    },
+    {
+      "name": "University of California, Santa Cruz",
+      "position": "Postdoctoral Researcher",
+      "location": "Santa Cruz, California, USA",
+      "startDate": "2021-06-01",
+      "endDate": "2022-12-31",
+      "summary": "Hybrid Systems Lab, Baskin School of Engineering.",
+      "highlights": [
+        "Advisor: Prof. Ricardo G. Sanfelice"
+      ]
+    },
+    {
+      "name": "University of Toronto Institute for Aerospace Studies / Queen's University / York University",
+      "position": "Postdoctoral Researcher",
+      "location": "Canada",
+      "startDate": "2019-01-01",
+      "endDate": "2021-05-31",
+      "summary": "Postdoctoral research in geometric control and control of mechanical systems on Lie groups.",
+      "highlights": [
+        "Advisor: Prof. Andrew Lewis"
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "University of Waterloo",
+      "location": "Waterloo, Canada",
+      "area": "Mechanical and Mechatronics Engineering",
+      "studyType": "Ph.D.",
+      "startDate": "",
+      "endDate": "2018",
+      "score": "",
+      "courses": [
+        "Thesis: Nonlinear and geometric control of rigid body vehicles",
+        "Supervisor: Prof. Steven L. Waslander"
+      ]
+    },
+    {
+      "institution": "University of Waterloo",
+      "location": "Waterloo, Canada",
+      "area": "Electrical and Computer Engineering",
+      "studyType": "M.A.Sc.",
+      "startDate": "",
+      "endDate": "2012",
+      "score": "",
+      "courses": [
+        "Thesis: Dynamic path following controllers for planar mobile robots",
+        "Supervisor: Prof. Christopher Nielsen"
+      ]
+    },
+    {
+      "institution": "National University of Sciences and Technology",
+      "location": "Islamabad, Pakistan",
+      "area": "Mechatronics Engineering",
+      "studyType": "B.E.",
+      "startDate": "",
+      "endDate": "2006",
+      "score": "",
+      "courses": [
+        "Thesis: Design, implementation, and real-time digital control of a cart-mounted inverted pendulum"
+      ]
+    }
+  ],
+
+  "publications": [
+    {
+      "name": "Learning Neural Maximal Lyapunov Functions on SO(n)",
+      "publisher": "IEEE Control Systems Letters",
+      "releaseDate": "2026",
+      "url": "",
+      "summary": "A. Akhtar and M. Barreau. Accepted."
+    },
+    {
+      "name": "Schrödinger Bridge Over a Compact Connected Lie Group",
+      "publisher": "IEEE Control Systems Letters",
+      "releaseDate": "2026",
+      "url": "",
+      "summary": "H. Mahmood, A. Halder, and A. Akhtar. Accepted."
+    },
+    {
+      "name": "Path Following of a Quadrotor With a Cable-Suspended Point Mass",
+      "publisher": "IEEE Transactions on Industrial Electronics",
+      "releaseDate": "2022",
+      "url": "https://doi.org/10.1109/TIE.2022.3167130",
+      "summary": "A. Akhtar, S. Saleem, and J. Shan."
+    },
+    {
+      "name": "Path Invariant Controllers for a UAV With a Cable-Suspended Payload Using a Global Parameterization",
+      "publisher": "IEEE Transactions on Control Systems Technology",
+      "releaseDate": "2021",
+      "url": "https://doi.org/10.1109/TCST.2021.3133693",
+      "summary": "A. Akhtar, S. Saleem, and J. Shan."
+    },
+    {
+      "name": "Controller Class for Rigid Body Tracking on SO(3)",
+      "publisher": "IEEE Transactions on Automatic Control",
+      "releaseDate": "2020",
+      "url": "https://doi.org/10.1109/TAC.2020.3008295",
+      "summary": "A. Akhtar and S. L. Waslander."
+    },
+    {
+      "name": "Path Following for a Class of Underactuated Systems Using Global Parameterization",
+      "publisher": "IEEE Access",
+      "releaseDate": "2020",
+      "url": "https://doi.org/10.1109/ACCESS.2020.2974153",
+      "summary": "A. Akhtar, S. Saleem, and S. L. Waslander."
+    },
+    {
+      "name": "Dynamic Path Following Controllers for Planar Vehicles",
+      "publisher": "IEEE Transactions on Robotics",
+      "releaseDate": "2015",
+      "url": "",
+      "summary": "A. Akhtar, S. L. Waslander, and C. Nielsen."
+    }
+  ],
+
+  "awards": [
+    {
+      "title": "Digital Future SEC Early Research Fellow",
+      "date": "2025",
+      "awarder": "KTH Royal Institute of Technology",
+      "summary": "Funded research visit fellowship."
+    },
+    {
+      "title": "Postdoctoral Research Award",
+      "date": "2019",
+      "awarder": "University of Toronto",
+      "summary": ""
+    },
+    {
+      "title": "Outstanding Reviewer Award",
+      "date": "2016",
+      "awarder": "Asian Journal of Control",
+      "summary": ""
+    },
+    {
+      "title": "Multiple Best Teaching Assistant Awards",
+      "date": "2013--2016",
+      "awarder": "University of Waterloo",
+      "summary": ""
+    }
+  ],
+
+  "skills": [
+    {
+      "name": "Research Areas",
+      "level": "",
+      "keywords": [
+        "Nonlinear control",
+        "Geometric control",
+        "Hybrid control",
+        "Cyber-physical systems",
+        "Mobile robotics",
+        "Aerial robotics",
+        "Safety-critical control",
+        "Fault-tolerant control"
+      ]
+    },
+    {
+      "name": "Programming and Tools",
+      "level": "",
+      "keywords": [
+        "MATLAB",
+        "Python",
+        "Maple",
+        "C",
+        "C++",
+        "C#",
+        "LabVIEW",
+        "LaTeX",
+        "Linux",
+        "Robot Operating System"
+      ]
+    }
+  ],
+
+  "interests": [
+    {
+      "name": "Control and Robotics",
+      "keywords": [
+        "Nonlinear control",
+        "Geometric control",
+        "Hybrid systems",
+        "Cyber-physical systems",
+        "Mobile and aerial robotics",
+        "Coordination control"
+      ]
+    }
+  ],
+
+  "references": [
+    {
+      "name": "References",
+      "reference": "Available upon request."
+    }
+  ]
+}

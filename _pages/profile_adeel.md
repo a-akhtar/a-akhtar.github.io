@@ -1,0 +1,1 @@
+Adeel Akhtar is an Assistant Professor in the Department of Mechanical and Industrial Engineering at the New Jersey Institute of Technology (NJIT). His research interests include nonlinear control, geometric control, hybrid systems, stochastic control, physics-informed neural networks (PINNs), and their applications to aerial and ground robotics.
