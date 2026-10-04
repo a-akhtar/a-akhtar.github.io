@@ -1,10 +1,23 @@
+@misc{mahmood2026equivalence,
+  abbr = {Under Review},
+  author = {Mahmood, Hamza and Bondar, Georgiy A. and Halder, Abhishek and Akhtar, Adeel},
+  title = {On the Equivalence of Stochastic Control and Path Space Formulations for Schr{\"o}dinger Bridges over Compact Connected Lie Groups},
+  year = {2026},
+  note = {Under review},
+  html = {https://arxiv.org/abs/2609.13758},
+  pdf = {https://arxiv.org/pdf/2609.13758},
+  arxiv = {2609.13758},
+  bibtex_show = {true},
+  tags = {Schrodinger bridges, stochastic control, path space formulations, Lie groups}
+}
+
 @article{akhtar2026learning,
   abbr = {IEEE L-CSS},
   author = {Akhtar, Adeel and Barreau, Matthieu},
   title = {Learning Neural Maximal Lyapunov Functions on {SO}(n)},
   journal = {IEEE Control Systems Letters},
   year = {2026},
-  pages = {1--1},
+  pages = {1711-1716},
   doi = {10.1109/LCSYS.2026.3706470},
   html = {https://ieeexplore.ieee.org/document/11575666},
   pdf = {https://arxiv.org/pdf/2606.19669},
@@ -22,7 +35,7 @@
   title = {Schr{\"o}dinger Bridge Over a Compact Connected Lie Group},
   journal = {IEEE Control Systems Letters},
   year = {2026},
-  pages = {1--1},
+  pages = {1141-1146},
   doi = {10.1109/LCSYS.2026.3705293},
   html = {https://ieeexplore.ieee.org/document/11570100},
   pdf = {https://arxiv.org/pdf/2603.14049},
@@ -35,158 +48,79 @@
   tags = {Schrodinger bridge, stochastic optimal control, Lie groups, Fokker-Planck equation}
 }
 
-@article{akhtar2023cablesuspended,
-  abbr = {IEEE TIE},
-  author = {Akhtar, Adeel and Saleem, Sajid and Shan, Jinjun},
-  title = {Path Following of a Quadrotor With a Cable-Suspended Payload},
-  journal = {IEEE Transactions on Industrial Electronics},
-  year = {2023},
-  volume = {70},
-  number = {2},
-  pages = {1646--1654},
-  publisher = {IEEE},
-  doi = {10.1109/TIE.2022.3167130},
-  html = {https://ieeexplore.ieee.org/document/9760229},
-  pdf = {AkhSalSah2023TIE.pdf},
-  abstract = {This article addresses the design of a path following controller for a payload tethered to a quadrotor. Specifically, the goal is to design a smooth dynamic feedback controller that forces the suspended payload to converge and follow a large class of embedded curves. The given curve is treated as a smooth manifold, and set stabilization is used to find the maximal control invariant manifold. The controller design guarantees that once the aerial robot approaches the path, the payload never leaves the path. The performance of the proposed controller is verified through simulations with practical sensor noise and parametric uncertainties. Moreover, experimental implementation and verification of the proposed control scheme are performed on a Quanser UAV platform in an indoor flying arena.},
-  selected = {true},
-  bibtex_show = {true},
-  tags = {path following, quadrotor, cable-suspended payload, set stabilization, UAV}
-}
-
-@article{akhtar2022pathinvariant,
-  abbr = {IEEE TCST},
-  author = {Akhtar, Adeel and Saleem, Sajid and Shan, Jinjun},
-  title = {Path Invariant Controllers for a Quadrotor With a Cable-Suspended Payload Using a Global Parameterization},
-  journal = {IEEE Transactions on Control Systems Technology},
-  year = {2022},
-  volume = {30},
-  number = {5},
-  pages = {2002--2017},
-  publisher = {IEEE},
-  doi = {10.1109/TCST.2021.3133693},
-  html = {https://ieeexplore.ieee.org/document/9663072},
-  pdf = {AkhSalShanTCST2021.pdf},
-  video = {https://www.youtube.com/watch?v=Znwy7Jd7dtg},
-  abstract = {Payload delivery using unmanned aerial vehicles (UAVs) has attained central importance for smart logistics and transportation systems in the context of the fourth industrial revolution. This work considers the problem of designing a smooth dynamic feedback control law for a point mass payload suspended to a quadrotor and making the load to follow a large class of curves that includes both closed and non-closed curves. Typically, the load path following problem is solved using either a coordinate-free or a local-coordinate-based approach. However, in this article, we adopt an alternative methodology. First, we express the system dynamics in an extended Euclidean space using a global coordinate system. Second, we propose two families of functions that lead to the design of almost-global and local controllers in terms of region of convergence. We cast the load path following problem in the framework of set stabilization, and as a result, the proposed controllers make the given path an invariant manifold. The resulting controllers guarantee that once the suspended load converges to the path, it stays on the path indefinitely while satisfying other application-specific constraints. Finally, to complement the theoretical results, we provide a successful real-world experimental validation of the proposed controller on a Quanser QDrone UAV platform with a cable-suspended payload.},
-  selected = {true},
-  bibtex_show = {true},
-  tags = {path invariant control, quadrotor, cable-suspended payload, global parameterization, set stabilization}
-}
-
-@article{akhtar2021rigidbody,
-  abbr = {IEEE TAC},
-  author = {Akhtar, Adeel and Waslander, Steven L.},
-  title = {Controller Class for Rigid Body Tracking on {SO}(3)},
-  journal = {IEEE Transactions on Automatic Control},
-  year = {2021},
-  volume = {66},
-  number = {5},
-  pages = {2234--2241},
-  publisher = {IEEE},
-  doi = {10.1109/TAC.2020.3008295},
-  html = {https://ieeexplore.ieee.org/document/9137655},
-  pdf = {AkhWasTAC2019.pdf},
-  video = {https://www.youtube.com/watch?v=AHMuUB8Zgpo},
-  abstract = {In this article, we propose a novel family of Lie algebra valued functions on the special orthogonal group SO(3). Each function belonging to this family induces a novel controller that stabilizes a rigid body attitude. All controllers induced by the family form a controller class. This novel controller class contains both local and almost-global asymptotically stable controllers, and this article presents geometric stability results of the whole controller class.},
-  selected = {true},
-  bibtex_show = {true},
-  tags = {geometric control, rigid body, SO(3), attitude control, coordinate-free control}
-}
-
-@article{akhtar2020underactuated,
-  abbr = {IEEE Access},
-  author = {Akhtar, Adeel and Saleem, Sajid and Waslander, Steven L.},
-  title = {Path Following for a Class of Underactuated Systems Using Global Parameterization},
-  journal = {IEEE Access},
-  year = {2020},
-  volume = {8},
-  pages = {34737--34749},
-  publisher = {IEEE},
-  doi = {10.1109/ACCESS.2020.2974153},
-  html = {https://ieeexplore.ieee.org/document/8999577},
-  abstract = {A large number of both aerial and underwater mobile robots fall in the category of underactuated systems that are defined on a manifold, which is not isomorphic to Euclidean space. Traditional approaches to designing controllers for such systems include geometric approaches and local coordinate-based representations. In this paper, we propose a global parameterization of the special orthogonal group, denoted by SO(3), to design path-following controllers for underactuated systems. In particular, we present a nine-dimensional representation of SO(3) that leads to controllers achieving path-invariance for a large class of both closed and non-closed embedded curves. On the one hand, this over-parameterization leads to a simple set of differential equations and provides a global non-ambiguous representation of systems as compared to other local or minimal parametric approaches. On the other hand, this over-parameterization also leads to uncontrolled internal dynamics, which we prove to be bounded and stable. The proposed controller, when applied to a quadrotor system, is capable of recovering the system from challenging situations such as initial upside-down orientation and also capable of performing multiple flips.},
-  bibtex_show = {true},
-  tags = {path following, underactuated systems, global parameterization, SO(3)}
-}
-
-@article{akhtar2015dynamic,
-  abbr = {IEEE T-RO},
-  author = {Akhtar, Adeel and Waslander, Steven L. and Nielsen, Christopher},
-  title = {Path Following Using Dynamic Transverse Feedback Linearization for Car-Like Robots},
-  journal = {IEEE Transactions on Robotics},
-  year = {2015},
-  volume = {31},
-  number = {2},
-  pages = {269--279},
-  publisher = {IEEE},
-  doi = {10.1109/TRO.2015.2395711},
-  Pdf = {AkhNieWasTRO2015.pdf},
-  html = {https://ieeexplore.ieee.org/document/7042843},
-  abstract = {This paper presents an approach for designing path-following controllers for the kinematic model of car-like mobile robots using transverse feedback linearization with dynamic extension. This approach is applicable to a large class of paths and its effectiveness is experimentally demonstrated on a Chameleon R100 Ackermann steering robot. Transverse feedback linearization makes the desired path attractive and invariant, while the dynamic extension allows the closed-loop system to achieve the desired motion along the path.},
-  selected = {true},
-  bibtex_show = {true},
-  tags = {path following, mobile robots, transverse feedback linearization, car-like robots}
-}
 
 
 @inproceedings{park2026primaldual,
-  abbr = {IEEE CDC},
+  abbr = {Under Review},
   author = {Park, S. and Akhtar, Adeel},
   title = {Convergence of Primal-Dual Algorithms for Dynamics-Embedded Optimization With Koopman Linearization},
-  booktitle = {Proceedings of the IEEE Conference on Decision and Control},
   year = {2026},
-  note = {Submitted},
+  note = {Under review},
   bibtex_show = {true},
   tags = {optimization, primal-dual algorithms, Koopman linearization}
 }
 
 @inproceedings{tariq2026decentralized,
-  abbr = {IEEE CDC},
-  author = {Tariq, H. and Akhtar, Adeel},
-  title = {Decentralized Safe Path Following for Multiple Quadrotors on Intersecting Paths},
-  booktitle = {Proceedings of the IEEE Conference on Decision and Control},
+  abbr = {Under Review},
+  author = {Tariq, Hamza. and Akhtar, Adeel},
+  title = {Decentralized Safe Path Following for Multiple Quadrotors on Intersecting Paths with Theoretical Guarantees},
   year = {2026},
-  note = {Submitted},
+  note = {Under review},
+  html = {https://arxiv.org/abs/2610.00208},
+  pdf = {https://arxiv.org/pdf/2610.00208},
+  arxiv = {2610.00208},
   bibtex_show = {true},
   tags = {safe path following, multi-agent systems, quadrotors}
 }
 
 @inproceedings{akhtar2026unicyclemanifolds,
   abbr = {IEEE CDC},
-  author = {Akhtar, Adeel and Al Lawati, M.},
+  author = {Akhtar, Adeel and Al Lawati, Mohamed},
   title = {Modeling and Control of a Unicycle Robot on Manifolds},
   booktitle = {Proceedings of the IEEE Conference on Decision and Control},
   year = {2026},
-  note = {Submitted},
+  note = {Accepted},
+  html = {https://arxiv.org/abs/2609.23878},
+  pdf = {https://arxiv.org/pdf/2609.23878},
+  arxiv = {2609.23878},
   bibtex_show = {true},
   tags = {unicycle robot, manifolds, geometric control}
 }
 
 @inproceedings{tariq2026relaxedqp,
   abbr = {IEEE CCTA},
-  author = {Tariq, H. and Ali, U. and Akhtar, Adeel},
-  title = {A Relaxed {Quadratic-Program-Based} Framework for Trajectory Tracking of Unicycle Robots With Singularity Avoidance},
-  booktitle = {Proceedings of the IEEE Conference on Control Technology and Applications},
+  author = {Tariq, Hamza and Ali, Usman and Akhtar, Adeel},
+  title = {A Relaxed {Quadratic-Program-based} Framework for Trajectory Tracking of Unicycle Robots with Singularity Avoidance},
+  booktitle = {2026 IEEE Conference on Control Technology and Applications (CCTA)},
   year = {2026},
-  note = {Accepted to IEEE CCTA 2026},
+  address = {Vancouver, BC, Canada},
+  pages = {925--930},
+  publisher = {IEEE},
+  doi = {10.1109/CCTA62090.2026.11684166},
+  html = {https://ieeexplore.ieee.org/document/11684166},
   pdf = {https://arxiv.org/pdf/2606.23355},
   arxiv = {2606.23355},
   website = {https://gradslab.github.io/DFL_QP_Unicycle/},
   code = {https://github.com/gradslab/DFL_QP_Unicycle},
+  award = {Best Student Paper Award, IEEE CCTA 2026},
+  selected = {true},
   abstract = {Dynamic feedback linearization (DFL) is a classical technique for trajectory tracking of unicycle-type mobile robots, but the resulting DFL-based controller becomes singular when the linear velocity vanishes, rendering standard DFL-based controllers unsuitable for stop-and-reverse maneuvers. This paper proposes a quadratic-program (QP)-based optimal control framework that avoids this singularity, while establishing local Lipschitz continuity of the resulting feedback law. Our approach reformulates the DFL constraints as an equality-constrained QP with a slack variable, ensuring feasibility for all states and reference signals, including at points where the robot's velocity vanishes. By introducing slack variables and tunable parameters, we demonstrate that the singular configuration can be avoided for a large class of reference trajectories. The effectiveness of the proposed approach for trajectory tracking is demonstrated through ROS2--Gazebo simulations on a TurtleBot3 Waffle robot. The code is available at https://gradslab.github.io/DFL_QP_Unicycle/.},
   bibtex_show = {true},
   tags = {trajectory tracking, unicycle robot, quadratic programming, dynamic feedback linearization, singularity avoidance}
 }
 
+
 @inproceedings{allawati2026quasistatic,
   abbr = {IEEE CCTA},
   author = {Al Lawati, Mohamed and Akhtar, Adeel},
-  title = {Quasi-Static Fault-Tolerant Feedback Control of a Quadrotor Under Rotor Failure With Provable Safety Guarantees},
-  booktitle = {Proceedings of the IEEE Conference on Control Technology and Applications},
+  title = {Quasi-Static Fault-Tolerant Feedback Control of a Quadrotor under Rotor Failure with Provable Safety Guarantees},
+  booktitle = {2026 IEEE Conference on Control Technology and Applications (CCTA)},
   year = {2026},
   address = {Vancouver, BC, Canada},
-  note = {Accepted to IEEE CCTA 2026},
+  pages = {681--686},
+  publisher = {IEEE},
+  doi = {10.1109/CCTA62090.2026.11684234},
+  html = {https://ieeexplore.ieee.org/document/11684234},
   website = {https://gradslab.github.io/quasistatic-ftc/},
   code = {https://github.com/gradslab/quasistatic-ftc},
   abstract = {This project accompanies a nonlinear control framework for a quadrotor unmanned aerial vehicle experiencing a complete single-rotor failure. Given a geometric curve in three-dimensional space, the method characterizes and stabilizes the zero-dynamics manifold, also called the path-following manifold, which represents all feasible motions along the desired path. Stabilizing this manifold ensures path-invariance: if the UAV is initialized on the path with the appropriate transverse conditions, then the closed-loop vehicle remains on the path despite the rotor failure. The proposed quasi-static feedback controller achieves set stabilization without introducing additional dynamic controller states and provides local exponential convergence to the path-following manifold under regularity conditions. The approach is validated in a physics-based Drake simulation with Meshcat visualization.},
@@ -195,12 +129,14 @@
 }
 
 @inproceedings{mahmood2026geometricbridge,
-  abbr = {ECC},
+  abbr = {IEEE ECC},
   author = {Mahmood, Hamza and Akhtar, Adeel},
   title = {A Geometric Solution of the Schr{\"o}dinger Bridge Problem on {SO}(2) via Stochastic Optimal Control},
-  booktitle = {Proceedings of the European Control Conference},
+  booktitle = {2026 European Control Conference (ECC)},
   year = {2026},
-  note = {Accepted to ECC 2026},
+  pages = {2283--2288},
+  publisher = {IEEE},
+  html = {https://ieeexplore.ieee.org/document/11625684},
   pdf = {https://arxiv.org/pdf/2606.22690},
   arxiv = {2606.22690},
   code = {https://gitlab.com/a5akhtar/sbp},
@@ -209,14 +145,16 @@
   tags = {Schrodinger bridge, SO(2), stochastic optimal control, Lie groups, Hilbert projective metric}
 }
 
+
 @inproceedings{allawati2026setstabilization,
-  abbr = {ECC},
+  abbr = {IEEE ECC},
   author = {Al Lawati, Mohamed and Akhtar, Adeel},
-  title = {Path-following Control of a Quadrotor Using Quasi-Static Transverse Feedback Linearization},
-  booktitle = {Proceedings of the European Control Conference},
+  title = {Path-following Control of a Quadrotor using Quasi-Static Transverse Feedback Linearization},
+  booktitle = {2026 European Control Conference (ECC)},
   year = {2026},
-  note = {Accepted to ECC 2026},
-  html = {https://arxiv.org/abs/2606.23218},
+  pages = {3454--3459},
+  publisher = {IEEE},
+  html = {https://ieeexplore.ieee.org/document/11624159},
   pdf = {https://arxiv.org/pdf/2606.23218},
   arxiv = {2606.23218},
   code = {https://gitlab.com/a5akhtar/quasistatic-tfl-uav/},
@@ -342,6 +280,69 @@
   tags = {hybrid geometric control, unit circle, S1, robust stabilization, global asymptotic stability}
 }
 
+@article{akhtar2023cablesuspended,
+  abbr = {IEEE TIE},
+  author = {Akhtar, Adeel and Saleem, Sajid and Shan, Jinjun},
+  title = {Path Following of a Quadrotor With a Cable-Suspended Payload},
+  journal = {IEEE Transactions on Industrial Electronics},
+  year = {2023},
+  volume = {70},
+  number = {2},
+  pages = {1646--1654},
+  publisher = {IEEE},
+  doi = {10.1109/TIE.2022.3167130},
+  html = {https://ieeexplore.ieee.org/document/9760229},
+  pdf = {AkhSalSah2023TIE.pdf},
+  abstract = {This article addresses the design of a path following controller for a payload tethered to a quadrotor. Specifically, the goal is to design a smooth dynamic feedback controller that forces the suspended payload to converge and follow a large class of embedded curves. The given curve is treated as a smooth manifold, and set stabilization is used to find the maximal control invariant manifold. The controller design guarantees that once the aerial robot approaches the path, the payload never leaves the path. The performance of the proposed controller is verified through simulations with practical sensor noise and parametric uncertainties. Moreover, experimental implementation and verification of the proposed control scheme are performed on a Quanser UAV platform in an indoor flying arena.},
+  selected = {true},
+  bibtex_show = {true},
+  tags = {path following, quadrotor, cable-suspended payload, set stabilization, UAV}
+}
+
+@article{akhtar2022pathinvariant,
+  abbr = {IEEE TCST},
+  author = {Akhtar, Adeel and Saleem, Sajid and Shan, Jinjun},
+  title = {Path Invariant Controllers for a Quadrotor With a Cable-Suspended Payload Using a Global Parameterization},
+  journal = {IEEE Transactions on Control Systems Technology},
+  year = {2022},
+  volume = {30},
+  number = {5},
+  pages = {2002--2017},
+  publisher = {IEEE},
+  doi = {10.1109/TCST.2021.3133693},
+  html = {https://ieeexplore.ieee.org/document/9663072},
+  pdf = {AkhSalShanTCST2021.pdf},
+  video = {https://www.youtube.com/watch?v=Znwy7Jd7dtg},
+  abstract = {Payload delivery using unmanned aerial vehicles (UAVs) has attained central importance for smart logistics and transportation systems in the context of the fourth industrial revolution. This work considers the problem of designing a smooth dynamic feedback control law for a point mass payload suspended to a quadrotor and making the load to follow a large class of curves that includes both closed and non-closed curves. Typically, the load path following problem is solved using either a coordinate-free or a local-coordinate-based approach. However, in this article, we adopt an alternative methodology. First, we express the system dynamics in an extended Euclidean space using a global coordinate system. Second, we propose two families of functions that lead to the design of almost-global and local controllers in terms of region of convergence. We cast the load path following problem in the framework of set stabilization, and as a result, the proposed controllers make the given path an invariant manifold. The resulting controllers guarantee that once the suspended load converges to the path, it stays on the path indefinitely while satisfying other application-specific constraints. Finally, to complement the theoretical results, we provide a successful real-world experimental validation of the proposed controller on a Quanser QDrone UAV platform with a cable-suspended payload.},
+  selected = {true},
+  bibtex_show = {true},
+  tags = {path invariant control, quadrotor, cable-suspended payload, global parameterization, set stabilization}
+}
+
+
+
+
+@article{akhtar2021rigidbody,
+  abbr = {IEEE TAC},
+  author = {Akhtar, Adeel and Waslander, Steven L.},
+  title = {Controller Class for Rigid Body Tracking on {SO}(3)},
+  journal = {IEEE Transactions on Automatic Control},
+  year = {2021},
+  volume = {66},
+  number = {5},
+  pages = {2234--2241},
+  publisher = {IEEE},
+  doi = {10.1109/TAC.2020.3008295},
+  html = {https://ieeexplore.ieee.org/document/9137655},
+  pdf = {AkhWasTAC2019.pdf},
+  video = {https://www.youtube.com/watch?v=AHMuUB8Zgpo},
+  abstract = {In this article, we propose a novel family of Lie algebra valued functions on the special orthogonal group SO(3). Each function belonging to this family induces a novel controller that stabilizes a rigid body attitude. All controllers induced by the family form a controller class. This novel controller class contains both local and almost-global asymptotically stable controllers, and this article presents geometric stability results of the whole controller class.},
+  selected = {true},
+  bibtex_show = {true},
+  tags = {geometric control, rigid body, SO(3), attitude control, coordinate-free control}
+}
+
+
 @inproceedings{akhtar2020feedbacklinearizing,
   abbr = {IEEE ACC},
   author = {Akhtar, Adeel and Saleem, Sajid and Waslander, Steven L.},
@@ -357,6 +358,47 @@
   bibtex_show = {true},
   tags = {feedback linearization, SO(3), global parameterization, rigid body control}
 }
+
+
+@article{akhtar2020underactuated,
+  abbr = {IEEE Access},
+  author = {Akhtar, Adeel and Saleem, Sajid and Waslander, Steven L.},
+  title = {Path Following for a Class of Underactuated Systems Using Global Parameterization},
+  journal = {IEEE Access},
+  year = {2020},
+  volume = {8},
+  pages = {34737--34749},
+  publisher = {IEEE},
+  doi = {10.1109/ACCESS.2020.2974153},
+  html = {https://ieeexplore.ieee.org/document/8999577},
+  abstract = {A large number of both aerial and underwater mobile robots fall in the category of underactuated systems that are defined on a manifold, which is not isomorphic to Euclidean space. Traditional approaches to designing controllers for such systems include geometric approaches and local coordinate-based representations. In this paper, we propose a global parameterization of the special orthogonal group, denoted by SO(3), to design path-following controllers for underactuated systems. In particular, we present a nine-dimensional representation of SO(3) that leads to controllers achieving path-invariance for a large class of both closed and non-closed embedded curves. On the one hand, this over-parameterization leads to a simple set of differential equations and provides a global non-ambiguous representation of systems as compared to other local or minimal parametric approaches. On the other hand, this over-parameterization also leads to uncontrolled internal dynamics, which we prove to be bounded and stable. The proposed controller, when applied to a quadrotor system, is capable of recovering the system from challenging situations such as initial upside-down orientation and also capable of performing multiple flips.},
+  bibtex_show = {true},
+  tags = {path following, underactuated systems, global parameterization, SO(3)}
+}
+
+
+
+
+
+@article{akhtar2015dynamic,
+  abbr = {IEEE T-RO},
+  author = {Akhtar, Adeel and Waslander, Steven L. and Nielsen, Christopher},
+  title = {Path Following Using Dynamic Transverse Feedback Linearization for Car-Like Robots},
+  journal = {IEEE Transactions on Robotics},
+  year = {2015},
+  volume = {31},
+  number = {2},
+  pages = {269--279},
+  publisher = {IEEE},
+  doi = {10.1109/TRO.2015.2395711},
+  pdf = {AkhNieWasTRO2015.pdf},
+  html = {https://ieeexplore.ieee.org/document/7042843},
+  abstract = {This paper presents an approach for designing path-following controllers for the kinematic model of car-like mobile robots using transverse feedback linearization with dynamic extension. This approach is applicable to a large class of paths and its effectiveness is experimentally demonstrated on a Chameleon R100 Ackermann steering robot. Transverse feedback linearization makes the desired path attractive and invariant, while the dynamic extension allows the closed-loop system to achieve the desired motion along the path.},
+  selected = {true},
+  bibtex_show = {true},
+  tags = {path following, mobile robots, transverse feedback linearization, car-like robots}
+}
+
 
 @inproceedings{akhtar2013faulttolerant,
   abbr = {IEEE CDC},
