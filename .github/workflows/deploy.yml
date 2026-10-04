@@ -1,4 +1,4 @@
-name: Build website
+name: Build and deploy website
 
 on:
   push:
@@ -6,7 +6,9 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: website-main
@@ -15,6 +17,9 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     env:
       JEKYLL_ENV: production
       EXECJS_RUNTIME: Node
@@ -65,3 +70,20 @@ jobs:
           path: _site/
           include-hidden-files: true
           retention-days: 7
+
+      - name: Update generated website branch
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: _site
+          clean: true
+          force: false
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
