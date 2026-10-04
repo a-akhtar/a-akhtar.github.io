@@ -1,0 +1,72 @@
+---
+layout: page
+---
+
+<style>
+/* Research Group profile image sizes */
+.profile-image-pi,
+.profile-image-pi img {
+  width: 200px !important;
+  height: 200px !important;
+  max-width: 200px !important;
+  object-fit: cover;
+}
+
+.profile-image-student,
+.profile-image-student img {
+  width: 120px !important;
+  height: 120px !important;
+  max-width: 120px !important;
+  object-fit: cover;
+}
+</style>
+
+<div class="post">
+  <article>
+    {% if page.profiles %}
+      {% for profile in page.profiles %}
+        <hr>
+        <div class="profile float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
+
+          {% if profile.image_student %}
+            {% assign profile_image_path = profile.image_student | prepend: 'assets/img/' %}
+
+            {% if profile.image_circular %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle profile-image-student' %}
+            {% else %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded profile-image-student' %}
+            {% endif %}
+
+            {% capture sizes %}120px{% endcapture %}
+            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image_student %}
+
+          {% elsif profile.image %}
+            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+
+            {% if profile.image_circular %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle profile-image-pi' %}
+            {% else %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded profile-image-pi' %}
+            {% endif %}
+
+            {% capture sizes %}180px{% endcapture %}
+            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+          {% endif %}
+
+          {% if profile.more_info %}
+            <div class="more-info">{{ profile.more_info | markdownify }}</div>
+          {% endif %}
+        </div>
+
+        <div class="clearfix">
+          {% if profile.content %}
+            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+            {{ profile_content | markdownify }}
+          {% else %}
+            {{ content }}
+          {% endif %}
+        </div>
+      {% endfor %}
+    {% endif %}
+  </article>
+</div>

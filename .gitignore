@@ -1,14 +1,22 @@
+# JetBrains / IDE
 *.iml
-.idea
-_site
-.sass-cache
-.jekyll-metadata
-.ruby-version
-Gemfile.lock
-.DS_store
+.idea/
 
-.jekyll-cache/
+# Jekyll generated site
 _site/
+
+# Jekyll caches
 .sass-cache/
+.jekyll-cache/
 .jekyll-metadata
+
+# Ruby / Bundler local files
+.ruby-version
+vendor/
+.bundle/
+
+# macOS
 .DS_Store
+
+# Optional local/dev files
+node_modules/
