@@ -1,0 +1,1 @@
+Hamza Tariq's research focuses on nonlinear control, optimization-based control, and safety-critical autonomous systems. He is particularly interested in feedback linearization, control barrier functions, trajectory tracking, path following, and decentralized coordination of robotic systems.
